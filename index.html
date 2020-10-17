@@ -11,7 +11,51 @@
   </head>
 
   <body>
-    <h1>style.css connected</h1>
+    <div class="container">
+      <form id="search-bar" action="index.html" method="post">
+        <input type="text" name="input" value="">
+        <button type="submit" name="search">Search</button>
+      </form>
+    </div>
+    <div id="fullPage">
+
+      <!-- <div class="section">
+        <h1>first</h1>
+      </div>
+      <div class="section">
+        <h1>second</h1>
+      </div>
+      <div class="section">
+        <h1>third</h1>
+      </div> -->
+    </div>
+    <!-- <script>
+      let options = {
+        root: null,
+        rootMargin:'0px',
+        threshhold:1.0
+      }
+      let callback = (entries, observer)=>{
+        entries.forEach(entry =>{
+          if(entry.target.id == 'video'){
+            if(entry.isIntersecting){
+              entry.target.play()
+            }
+            else{
+              entry.target.pause()
+            }
+          }
+        })
+      }
+      let observer = new IntersectionObserver(callback, options);
+      observer.observe(document.querySelector('#video'))
+    </script> -->
+    <script>
+      window.addEventListener('scroll', ()=>{
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight
+
+      })
+    </script>
   </body>
 
 </html>

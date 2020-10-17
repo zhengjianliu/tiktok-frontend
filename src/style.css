@@ -1,3 +1,31 @@
 h1{
   color: red;
 }
+
+iframe{
+  height: 100vh;
+}
+
+#fullPage{
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y:scroll;
+}
+
+.section{
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+#search-bar{
+  padding-top: 40px;
+  position: fixed;
+  z-index: 10000;
+}
+
+
+.container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
