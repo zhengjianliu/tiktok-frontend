@@ -1,4 +1,4 @@
-const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q="
+const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
 const API = "&key=AIzaSyBLLg76TCqpdFTUARyTwYrgRhnxnesChRs"
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -14,15 +14,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const videosBox = document.querySelector('#fullPage')
       const videoDiv = document.createElement('section')
       videoDiv.setAttribute('class','section')
-      videoDiv.innerHTML = `
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=0""
+      videoDiv.innerHTML=`
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=0""
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
         gyroscope; picture-in-picture" allowfullscreen></iframe>
       `
       videosBox.append(videoDiv)
   }
 
-  const renderData = (INPUT="music") => {
+  const renderData = (INPUT="husky") => {
     fetch(URL + INPUT + API)
       .then(resp => resp.json())
       .then(videos => {
@@ -62,7 +62,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const pausedVideo = frame.src.slice(0,-1)
       const playVideo = pausedVideo + "1"
       frame.src = playVideo
-      console.log(frame.src)
+      const lastVideo = currentVideo.previousSibling
+      const lastFrame = lastVideo.children[0]
+      const playingVideo = lastFrame.src.slice(0,-1)
+      const stopedVideo = pausedVideo + "0"
+      lastFrame.src = stopedVideo
     }
   })
 
