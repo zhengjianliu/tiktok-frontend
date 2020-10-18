@@ -65,8 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const lastVideo = currentVideo.previousSibling
       const lastFrame = lastVideo.children[0]
       const playingVideo = lastFrame.src.slice(0,-1)
-      const stopedVideo = pausedVideo + "0"
+      const stopedVideo = playingVideo + "0"
       lastFrame.src = stopedVideo
+      const nextVideo = currentVideo.nextSibling
+      const nextFrame = nextVideo.children[0]
+      const nextplayingVideo = nextFrame.src.slice(0,-1)
+      const nextstopedVideo = nextplayingVideo + "0"
+      nextFrame.src = nextstopedVideo
+
     }
   })
 
