@@ -2,14 +2,16 @@ h1{
   color: red;
 }
 
+
 iframe{
+  position: relative;
   height: 100vh;
 }
 
 #fullPage{
   height: 100vh;
   scroll-snap-type: y mandatory;
-  overflow-y:scroll;
+  overflow-y:auto;
 }
 
 .section{
@@ -28,4 +30,17 @@ iframe{
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+
+
+.s1{
+  background: green;
+}
+
+.s2{
+  background: lightgrey;
+}
+.s3{
+  background: black;
 }
