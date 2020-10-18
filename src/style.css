@@ -20,7 +20,7 @@ iframe{
 }
 
 #search-bar{
-  padding-top: 40px;
+  margin-top: 60px;
   position: fixed;
   z-index: 10000;
 }
@@ -34,7 +34,7 @@ iframe{
 
 
 
-.s1{
+/* .s1{
   background: green;
 }
 
@@ -43,4 +43,45 @@ iframe{
 }
 .s3{
   background: black;
+} */
+
+
+form input{
+  width: 350px;
+  border-radius: 30px;
+  border: 2px solid lightgrey;
+  background: rgba(255, 255, 255, 0.65);
+  opacity: 0.7;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  outline: none;
+  color: rgb(97, 97, 97);
+  transition: 1s;
+}
+
+form input:hover{
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+form button{
+  border-radius: 30px;
+  border:0px;
+  background:rgb(29, 160, 255);
+  padding: 0 14px;
+  font-size: 15pt;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+  margin-left: 5px;
+  font-weight: 700;
+  outline: none;
+  transition: 1s;
+}
+
+form button:hover{
+  opacity: 1;
+  letter-spacing: 2px;
+  transform:scale(1.03);
 }

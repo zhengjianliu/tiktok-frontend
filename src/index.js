@@ -1,5 +1,5 @@
 const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
-const API = "&key=AIzaSyBLLg76TCqpdFTUARyTwYrgRhnxnesChRs"
+const API = "&key=AIzaSyBDdwzGmuRJriJjv1By7zSYiEyy7E5fOE4"
 document.addEventListener('DOMContentLoaded', () => {
 
   const renderVideos = (videos) => {
@@ -37,11 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const form = e.target
       let searchInput = form.input.value
       renderData(searchInput)
+      form.reset()
     })
 
   }
 
-  const validation = (elements) =>{
+  const watching = (elements) =>{
     for (element of elements.children ){
       var rect = element.getBoundingClientRect()
       var elemTop = rect.top;
@@ -56,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const body = document.querySelector('#fullPage')
 
   body.addEventListener('scroll', ()=>{
-    const currentVideo = validation(body)
+    const currentVideo = watching(body)
     if (currentVideo!= undefined){
       const frame = currentVideo.children[0]
       const pausedVideo = frame.src.slice(0,-1)
