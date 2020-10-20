@@ -55,19 +55,74 @@ iframe{
 .sticky-button{
   position: fixed;
   right:0;
-  top:40vh;
+  top:45vh;
+  z-index: 1000;
 }
 
+.sidepanel, .favorsidepanel{
+  position: fixed;
+  width: 0vw;
+  height: 100vh;
+  z-index: 10000;
+  right:0;
+  background: white;
+  transition: .5s;
+}
+
+
+#closebutton, #favorclosebutton{
+  position: fixed;
+  width: 40px;
+  display: none;
+  z-index: 1000;
+  right: 0;
+  padding-right: 0;
+  top: 46vh;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#closebutton:hover, #favorclosebutton:hover{
+  transform: scale(1.1) rotate(90deg);
+}
+
+
+
+.logout{
+  position: fixed;
+  bottom:0;
+  width: 300px;
+  height: 70px;
+  font-size: 20pt;
+  background: black;
+  color: white;
+  border: 0px;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: .5s;
+}
+
+.logout:hover{
+  letter-spacing: 8px;
+  background: grey;
+  color: black;
+}
+
+
 .sticky-button li {
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 2vw;
   cursor: pointer;
 }
 
 ul{
   list-style: none;
-  list-style-position: outside;
   margin-right: 10px;
 }
+
 
 #account svg{
   fill:rgb(50, 206, 255);
@@ -89,13 +144,20 @@ ul{
 #account svg{
   fill:rgb(50, 206, 255);
 }
-#heart svg{
+#heart img{
+  margin-left: 3px;
+  height: 30px;
   fill:white;
+}
+
+.turnred{
+  fill:red;
 }
 
 .hover-effect{
   opacity: 0.5;
   transition: .5s;
+  z-index: 1000;
 }
 
 .hover-effect:hover{
