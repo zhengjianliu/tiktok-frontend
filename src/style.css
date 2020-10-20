@@ -1,6 +1,13 @@
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
 h1{
   color: red;
 }
+
 
 
 iframe{
@@ -34,7 +41,7 @@ iframe{
 
 
 
-/* .s1{
+.s1{
   background: green;
 }
 
@@ -43,7 +50,61 @@ iframe{
 }
 .s3{
   background: black;
-} */
+}
+
+.sticky-button{
+  position: fixed;
+  right:0;
+  top:40vh;
+}
+
+.sticky-button li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+  list-style-position: outside;
+  margin-right: 10px;
+}
+
+#account svg{
+  fill:rgb(50, 206, 255);
+  height: 40px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+#heart svg{
+  fill:white;
+  height: 40px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+#favorite svg{
+  fill:rgb(50, 206, 255);
+}
+#account svg{
+  fill:rgb(50, 206, 255);
+}
+#heart svg{
+  fill:white;
+}
+
+.hover-effect{
+  opacity: 0.5;
+  transition: .5s;
+}
+
+.hover-effect:hover{
+  opacity: 1;
+  transform: scale(1.1) rotate(15deg);
+}
+
+
+
 
 
 form input{
