@@ -1,5 +1,5 @@
 const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
-const API = "&key=AIzaSyBCoMNANehmbpXG07-Pj8wMxqoqvzzwnNM"
+const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
 document.addEventListener('DOMContentLoaded', () => {
   //
   // const renderVideos = (videos) => {
@@ -55,9 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // }
   //
   // const body = document.querySelector('#fullPage')
-  //
+  // const currentVideo = watching(body)
   // body.addEventListener('scroll', ()=>{
-  //   const currentVideo = watching(body)
   //   if (currentVideo!= undefined){
   //     const frame = currentVideo.children[0]
   //     const pausedVideo = frame.src.slice(0,-1)
@@ -84,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const closebutton = document.querySelector('#closebutton')
       const favorsidepanel = document.querySelector('.favorsidepanel')
       const favorclosebutton = document.querySelector('#favorclosebutton')
+
       if(icon.id == 'account' || icon.parentElement.id == 'account'){
         sidepanel.style.width = '300px';
         closebutton.style.right = '320px';
@@ -94,16 +94,32 @@ document.addEventListener('DOMContentLoaded', () => {
         favorsidepanel.style.width = '300px';
         favorclosebutton.style.right = '320px';
         favorclosebutton.style.display = 'block';
-      }else if(clickTarget.id == 'closebutton'){
+      }else if(clickTarget.id == 'closebutton' || clickTarget.id == 'favorclosebutton' || clickTarget){
         sidepanel.style.width = '0';
         closebutton.style.display = "none";
         closebutton.style.right = "0";
-      }else if(clickTarget.id == 'favorclosebutton'){
         favorsidepanel.style.width = '0';
         favorclosebutton.style.display = "none";
         favorclosebutton.style.right = "0";
       }
     })
+
+    document.addEventListener('click', e=>{
+      const loginform = document.querySelector('.loginform')
+      const signupform = document.querySelector('.signupform')
+      const button = e.target
+      if(button.id == "loginbutton"){
+        loginform.style.display ="flex";
+      }else if (button.id == "signup"){
+        console.log('signup')
+        signupform.style.display ="flex";
+        loginform.style.display ="none";
+      }else if (button.id == "closeform"){
+        loginform.style.display ="none";
+        signupform.style.display ="none";
+      }
+    })
+
   }
 
   /* ----------- */
