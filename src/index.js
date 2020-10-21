@@ -126,6 +126,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // renderData()
   // searchHandler()
   clickHandler()
-
-
 })

@@ -113,6 +113,19 @@ iframe{
   align-items: center;
   display: none;
 }
+
+.sticky-button li img{
+  width: 35px;
+  transition: .5s;
+}
+#loginbutton{
+  width: 45px;
+}
+
+.sticky-button li #loginbutton:hover{
+  transform: scale(1.3);
+}
+
 .signupform{
   justify-content: center;
   align-items: center;
