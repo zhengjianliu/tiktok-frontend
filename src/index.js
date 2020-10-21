@@ -1,9 +1,13 @@
-const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
-const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
+const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q="
+// const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
+const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
+let nextpage = ""
+let searchinput = "music"
+
 document.addEventListener('DOMContentLoaded', () => {
 
   const renderVideos = (videos) => {
-    document.querySelector('#fullPage').innerHTML = ''
+    // document.querySelector('#fullPage').innerHTML = ''
     for (const video of videos) {
       renderVideo(video)
     }
@@ -25,11 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   }
 
-  const renderData = (INPUT="husky") => {
-    fetch(URL + INPUT + API)
+  const renderData = (searchinput,token='&pageToken='+nextpage) => {
+    fetch(URL  + searchinput + token + API)
       .then(resp => resp.json())
       .then(videos => {
         renderVideos(videos.items)
+        nextpage = videos.nextPageToken
+        console.log(URL  + searchinput + token + API)
       })
   }
 
@@ -38,11 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBar.addEventListener('submit', e=>{
       e.preventDefault()
       const form = e.target
-      let searchInput = form.input.value
-      renderData(searchInput)
+      searchinput = form.input.value
+      renderData(searchinput)
       form.reset()
+      document.querySelector('#fullPage').innerHTML = ''
     })
-
   }
 
   const watching = (elements) =>{
@@ -71,12 +77,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const playingVideo = lastFrame.src.slice(0,-1)
       const stopedVideo = playingVideo + "0"
       lastFrame.src = stopedVideo
-      console.log(currentVideo)    /*show current video object <section>*/
+      // console.log(currentVideo)    /*show current video object <section>*/
       const nextVideo = currentVideo.nextSibling
-      const nextFrame = nextVideo.children[0]
-      const nextplayingVideo = nextFrame.src.slice(0,-1)
-      const nextstopedVideo = nextplayingVideo + "0"
-      nextFrame.src = nextstopedVideo
+      if(nextVideo === null){
+        console.log('no more') /*when last video is shown, console log no more*/
+        renderData(searchinput)
+      }else{
+        const nextFrame = nextVideo.children[0]
+        const nextplayingVideo = nextFrame.src.slice(0,-1)
+        const nextstopedVideo = nextplayingVideo + "0"
+        nextFrame.src = nextstopedVideo
+      }
     }
   })
 
@@ -95,6 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
         closebutton.style.display = 'block';
       }else if(icon.id == 'heart' || icon.parentElement.id == 'heart'){
           clickTarget.src = 'src/redheart.png'
+          const currentVideo = watching(body)
+          const videoId = currentVideo.dataset.videoId
+          console.log(videoId) /* CLick like to get the videoId*/
       }else if(icon.id == 'favorite' || icon.parentElement.id == 'favorite'){
         favorsidepanel.style.width = '300px';
         favorclosebutton.style.right = '320px';
@@ -124,7 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
         signupform.style.display ="none";
       }
     })
-
   }
 
   /* ----------- */
