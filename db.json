@@ -1,0 +1,691 @@
+{
+  "etag": "s-5Iivz3E7R0nL5AnBltxb3nivk",
+  "nextPageToken": "CBQQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RYeWfVYJgCfH26E6ynUj2oQd1MI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8gVOwEw8RTw"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-19T11:58:08Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Study Music 24/7, Focus, Meditation, Concentration Music, Relaxing Music, Calm Music, Yoga, Study",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Study Music 24/7, Focus, Meditation, Concentration Music, Relaxing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8gVOwEw8RTw/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8gVOwEw8RTw/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8gVOwEw8RTw/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-19T11:58:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wKZvK7yyzuKkGX_xt6SpjyCFeXM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8Q8oH706pe8"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T02:14:04Z",
+        "channelId": "UC7V1-1cz-coLNMR4nmkGO1g",
+        "title": "Top Hits 2020 | Best Pop Music Playlist 2020 | Top New Popular Songs Collection 2020",
+        "description": "Top Hits 2020 | Best Pop Music Playlist 2020 | Top New Popular Songs Collection 2020 Top Hits 2020 | Best Pop Music Playlist 2020 | Top New Popular Songs ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8Q8oH706pe8/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8Q8oH706pe8/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8Q8oH706pe8/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Top SongS",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-20T02:14:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w57jQlH3qvdsAfmLJOzaySVWuY0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "M06ju3qJqA4"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-19T01:03:28Z",
+        "channelId": "UCt_DaLB_NDqPVxezyvcfRtg",
+        "title": "Larray - Cancelled (Official Music Video)",
+        "description": "Larray - Canceled (Official Music Video) Song Available To Stream Here: https://cmg.ffm.to/canceled text me 1(909) 371-5991 Snapchat: Larrayxo Twitter: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M06ju3qJqA4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M06ju3qJqA4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M06ju3qJqA4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LARRAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-19T01:03:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nVQcJ2BKxj4_JBZGt8EelzdZE0I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4dFLDE-jXIs"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T19:52:13Z",
+        "channelId": "UC961ko9mCxvoHaeMUJb4Lfg",
+        "title": "Healing Music To Balance Your Mind 24/7 💙 Positive Energy | Soothing Meditation | Emotional Detox",
+        "description": "Dear Precious Soul When I let go of what I am, I become what I might be.” ― Lao Tzu May this 'peace' of music manifest miracles and beauty in your life today.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4dFLDE-jXIs/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4dFLDE-jXIs/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4dFLDE-jXIs/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Spirit Tribe Awakening",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-20T19:52:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fH5n-raTiyrIEEy9tGbxx-HPNRs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SXp6H4g99ns"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T01:04:56Z",
+        "channelId": "UCdi8yQBdBfn1ECu3ayH_TnA",
+        "title": "Relaxing Beautiful Music, Peaceful Instrumental Music,  &quot;Autumn Peaceful Home&quot; by Tim Janis",
+        "description": "Relaxing Beautiful Music, Peaceful Instrumental Music, \"Autumn Peaceful Home\" by Tim Janis. My instrumental music can help you find deep relaxation, relieve ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SXp6H4g99ns/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SXp6H4g99ns/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SXp6H4g99ns/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tim Janis",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-20T01:04:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pKkvLz5caGm-cg97alwCWzpz1kw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZJFxx9M5Cww"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-17T16:00:10Z",
+        "channelId": "UCYfbq37VGb-07tDS0FGtsPw",
+        "title": "Piper Rockelle - Bby i... (Official Music Video) **FIRST KISS ON CAMERA**💋",
+        "description": "Shalom bbys it's Piper Rockelle! Hope your day is good but better watching Bby i official music video first kiss on camera. I am so excited to share my new song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZJFxx9M5Cww/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZJFxx9M5Cww/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZJFxx9M5Cww/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Piper Rockelle",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-17T16:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZrbYRIh7SLa5fRbutFgGN8efxBs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GxfFUDIjzPw"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T14:03:06Z",
+        "channelId": "UCNJFXYXkXt_P8bJUxb21MpA",
+        "title": "Straight Up Smooth Jazz • Dr. SaxLove&#39;s Music for Getting Mellow and Chilling Out",
+        "description": "Straight Up Smooth Jazz for people who love saxophone. Dr. SaxLove's has got the music medicine you need! Relax ... enjoy. ▻ Subscribe to Dr. SaxLove: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GxfFUDIjzPw/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GxfFUDIjzPw/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GxfFUDIjzPw/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Dr. SaxLove",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-20T14:03:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lmyrsPQM5cozVoBJUXwpP9lw6No",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eZYsMFIX1jQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T20:22:08Z",
+        "channelId": "UCqKLOX-B7H9djovoTzj-Wdg",
+        "title": "WEDNESDAY JAZZ - Positive Morning Bossa &amp; Nova Jazz Music for, Work, Study, Good Mood",
+        "description": "Discover the Jazz and Bossa Nova greatest hits ! ♫ Jazz & Bossa Collection is your channel for all the best jazz and bluesmusic. Find your favorite songs and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eZYsMFIX1jQ/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eZYsMFIX1jQ/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eZYsMFIX1jQ/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jazz & Bossa Collection",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-20T20:22:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3U_t93bp8iTbB5919aJDgKaWNk8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jadyZfdxX4I"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-19T21:00:42Z",
+        "channelId": "UCH-T4tFvtcPkbI4sCi237BA",
+        "title": "Young M.A &quot;Dripset&quot; (Official Music Video)",
+        "description": "Young M.A 'Red Flu' EP out now. Click here to stream at all retailers: https://www.smarturl.it/redflu Text me at (718) 808-6312 Click here for official Young M.A ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jadyZfdxX4I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jadyZfdxX4I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jadyZfdxX4I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Young MA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-19T21:00:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DduAsJET4WivhuGs1y5qGs8-Zog",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mxFstYSbBmc"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-26T15:00:10Z",
+        "channelId": "UC2CCXzC56k0b8L49R_iW-Yw",
+        "title": "DaBaby - Rockstar feat. Roddy Ricch (Official Music Video)",
+        "description": "DaBaby - Rockstar feat. Roddy Ricch (Official Music Video) Written | Directed by Reel Goats Produced by Spicy Rico Executive Produced by DaBaby Production ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mxFstYSbBmc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mxFstYSbBmc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mxFstYSbBmc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DaBaby",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-26T15:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zCj9jVWGLdNoS3qM22XJHpmGQsc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aJOTlE1K90k"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-31T04:00:00Z",
+        "channelId": "UCN1hnUccO4FD5WfM7ithXaw",
+        "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+        "description": "\"Girls Like You” is out now. http://smarturl.it/GLY For more, visit: https://www.facebook.com/maroon5 https://twitter.com/maroon5 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aJOTlE1K90k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aJOTlE1K90k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aJOTlE1K90k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Maroon5VEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-31T04:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yEinzC1zrOqP_AQ2WiHigA10tvU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UoHzt2sJ0MQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T12:00:11Z",
+        "channelId": "UCwjAKjycHHT1QzHrQN5Stww",
+        "title": "SixTONES - NEW ERA (Music Video) - [YouTube Ver.]",
+        "description": "ありのままのSixTONESが向かうNEW ERA(新時代)」 荒野で風を受ける臙脂(えんじ)の布とSixTONES グループ初の「外ロケ」で撮影されたMVは、初めて見せる\"生\" ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UoHzt2sJ0MQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UoHzt2sJ0MQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UoHzt2sJ0MQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SixTONES",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-20T12:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W8Plz-NvW5Wu10V8eYId5iFo_QU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xQOO2xGQ1Pc"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-16T04:00:08Z",
+        "channelId": "UCHkj014U2CQ2Nv0UZeYpE_A",
+        "title": "Justin Bieber &amp; benny blanco - Lonely (Official Music Video)",
+        "description": "Lonely is out now: http://smarturl.it/imsolonely Starring Jacob Tremblay and directed by Jake Schreier If you're feeling Lonely or know someone who is struggling ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JustinBieberVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-16T04:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ChFQcTnab5_i8vxVpJXnd2Dv7iM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Dhki3atiUXs"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T07:59:59Z",
+        "channelId": "UC9AR3EQ220Wa1i9sO8gCO2Q",
+        "title": "ДДТ — Доктор Лиза (Official Music Video)",
+        "description": "Клип на песню «Доктор Лиза» группы ДДТ снят к выходу одноименного художественного фильма совместно с «Киностудией КИТ». Фильм можно ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Dhki3atiUXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Dhki3atiUXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Dhki3atiUXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "officialddt",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-20T07:59:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ocyZWuocJRvFCcHMuLHZToCgzCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ALZHF5UqnU4"
+      },
+      "snippet": {
+        "publishedAt": "2016-07-02T18:02:11Z",
+        "channelId": "UCEdvpU2pFRCVqU6yIPyTpMQ",
+        "title": "Marshmello - Alone (Official Music Video)",
+        "description": "NEW Mello™️ by Marshmello gear SHOP NOW ▷ https://mellogang.com/collections/new-arrivals/ Download Alone here ▷ http://smarturl.it/melloAlone A lot of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ALZHF5UqnU4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ALZHF5UqnU4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ALZHF5UqnU4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Marshmello",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-07-02T18:02:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VT4CYH4Oq7WRbwTgYFmAuCnWr6Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "agIeQ94jgtM"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T08:20:38Z",
+        "channelId": "UCwcKV1Jd-3Vl2AaK4OOjBWg",
+        "title": "Top Hits 2020 💎 New Popular Songs Playlist 2020 💎 Best english Music Collection 2020",
+        "description": "Top Hits 2020 New Popular Songs Playlist 2020 Best english Music Collection 2020 ➡ English Songs Fanpage: https://bitly.com.vn/DkK9Y.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/agIeQ94jgtM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/agIeQ94jgtM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/agIeQ94jgtM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "English Songs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-20T08:20:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wNEVriycP98CLEfAL7mCgcm_4OU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JFm7YDVlqnI"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-14T04:00:08Z",
+        "channelId": "UCQznUf1SjfDqx65hX3zRDiA",
+        "title": "Drake - Laugh Now Cry Later (Official Music Video) ft. Lil Durk",
+        "description": "Laugh Now Cry Later ft. Lil Durk available everywhere now: http://drake.lnk.to/lncl Connect with Drake: https://www.instagram.com/champagnepapi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JFm7YDVlqnI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JFm7YDVlqnI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JFm7YDVlqnI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DrakeVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-14T04:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "27kbvNl_8cKD7j7RNW3C_wz3y5Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nsdkAMbY8P4"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T11:41:00Z",
+        "channelId": "UCSESBy21jWtUevR1QIl-Raw",
+        "title": "Attract Positive Energy ! 528Hz Miracle Tone, Manifestation Meditation Music, Love Healing Frequency",
+        "description": "528 Hz miracle music based meditation music for positive energy awakening, also known as love frequency, This meditation music can also be used for before ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nsdkAMbY8P4/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nsdkAMbY8P4/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nsdkAMbY8P4/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SUPERNATURAL BRAINWAVE POWER",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-10-20T11:41:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "odIO8vO_TMvBMc6faMOYeqzRv98",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Qx0tbb233p8"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-20T13:00:10Z",
+        "channelId": "UCbVwJCxsVbmaP1PFmbGQDeQ",
+        "title": "Bruna Karla - Te Entrego Minhas Fraquezas (Clipe Oficial MK Music)",
+        "description": "Clipe oficial da música \"Te Entrego Minhas Fraquezas\", novo single da cantora Bruna Karla, disponível em todas as plataformas digitais. BAIXE/OUÇA O ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qx0tbb233p8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qx0tbb233p8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qx0tbb233p8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MK MUSIC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-20T13:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0KX5HF9Q41Z0vIhViate8Z8Ato0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_Pq_GHlveT4"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-16T12:30:12Z",
+        "channelId": "UCe05yXcSHjcgZ4EeV8fs_sA",
+        "title": "Iman Troye - Teman (Official Music Video)",
+        "description": "XO House Presents : Iman Troye - Teman (Official Music Video) Director + Producer = Adib Hamdi Song Producer = Ezra Kong Art Director = Alia Elena ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Pq_GHlveT4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Pq_GHlveT4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Pq_GHlveT4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "XO HOUSE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-16T12:30:12Z"
+      }
+    }
+  ]
+}
