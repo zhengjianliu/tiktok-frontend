@@ -1,11 +1,9 @@
-const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q="
+const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
 // const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
 const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
 let nextpage = ""
 let searchinput = "music"
-
 document.addEventListener('DOMContentLoaded', () => {
-
   const renderVideos = (videos) => {
     // document.querySelector('#fullPage').innerHTML = ''
     for (const video of videos) {
@@ -30,6 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const renderData = (searchinput,token='&pageToken='+nextpage) => {
+    if(token == "&pageToken="){
+      token = ""
+    }
+    if(searchinput == undefined){
+      searchinput = "music"
+    }
+    console.log(searchinput)
     fetch(URL  + searchinput + token + API)
       .then(resp => resp.json())
       .then(videos => {
