@@ -1,6 +1,7 @@
 const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
 // const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
-const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
+// const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
+const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
 let nextpage = ""
 let searchinput = "music"
 document.addEventListener('DOMContentLoaded', () => {
@@ -118,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const closebutton = document.querySelector('#closebutton')
       const favorsidepanel = document.querySelector('.favorsidepanel')
       const favorclosebutton = document.querySelector('#favorclosebutton')
+      const videoDiv = document.querySelector('.videos')
 
       if (icon.id == 'account' || icon.parentElement.id == 'account') {
         sidepanel.style.width = '300px';
@@ -127,7 +129,25 @@ document.addEventListener('DOMContentLoaded', () => {
         clickTarget.src = 'src/redheart.png'
         const currentVideo = watching(body)
         const videoId = currentVideo.dataset.videoId
-        console.log(videoId) /* CLick like to get the videoId*/
+        console.log(videoId, userId) /* CLick like to get the videoId*/
+        const options ={
+          method: "POST",
+          headers:{
+            "content-type": "application/json",
+            "accept": "application/json"
+          },
+          body: JSON.stringify({user_id: userId, favor_videos: videoId})
+        }
+        fetch(favorUrl, options)
+        .then(resp => resp.json())
+        .then(_video=>{
+          const videoframe = document.createElement('span')
+          videoframe.innerHTML = `
+          <iframe width="1315" height="748" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          `
+          videoDiv.append(videoframe)
+        })
+
       } else if (icon.id == 'favorite' || icon.parentElement.id == 'favorite') {
         favorsidepanel.style.width = '300px';
         favorclosebutton.style.right = '320px';
