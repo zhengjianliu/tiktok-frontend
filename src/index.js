@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         favorsidepanel.style.width = '300px';
         favorclosebutton.style.right = '320px';
         favorclosebutton.style.display = 'block';
-      }else if(clickTarget.id == 'closebutton' || clickTarget.id == 'favorclosebutton'){
+      }else if(clickTarget.id == 'closebutton' || clickTarget.id == 'favorclosebutton' || clickTarget.id == 'logout'){
         sidepanel.style.width = '0';
         closebutton.style.display = "none";
         closebutton.style.right = "0";
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ----------- */
-  renderData()
+  // renderData()
   searchHandler()
   clickHandler()
 })

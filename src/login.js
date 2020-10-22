@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
                   const login = stickybutton[3].style.display = 'none';
                   const name = document.querySelector('#username')
                   name.textContent = user.fullName
-
               }
             }
           }
@@ -56,6 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
       if(button.id == "loginbutton"){
         loginform.style.display = "block"
         loginform.lastChild.innerHTML= ''
+      }else if(button.id == 'logout'){
+        userId = ''
+        const stickybutton = stickybuttons.children
+        const account = stickybutton[0].style.display = 'none';
+        const heart = stickybutton[1].style.display = 'none';
+        const favor = stickybutton[2].style.display = 'none';
+        const login = stickybutton[3].style.display = 'block';
       }
     })
   }
