@@ -149,7 +149,7 @@ iframe{
   letter-spacing: 5px;
 }
 
-#login-form{
+#login-form, #signup-form{
   top: 35vh;
   position: fixed;
   z-index: 10000;
@@ -159,12 +159,12 @@ iframe{
 }
 
 
-#login-form input{
+#login-form input,  #signup-form input{
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-#login-form button{
+#login-form button,  #signup-form button{
   margin-top: 10px;
   margin-bottom: 10px;
   letter-spacing: 3px;
@@ -257,6 +257,17 @@ ul{
   margin-right: 10px;
 }
 
+ul #account{
+  display: none;
+}
+
+ul #heart{
+  display: none;
+}
+
+ul #favorite{
+  display: none;
+}
 
 #account svg{
   fill:rgb(50, 206, 255);

@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault()
       const form = e.target
       searchinput = form.input.value
+      console.log(searchinput)
       renderData(searchinput)
       form.reset()
       document.querySelector('#fullPage').innerHTML = ''
@@ -118,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         favorsidepanel.style.width = '300px';
         favorclosebutton.style.right = '320px';
         favorclosebutton.style.display = 'block';
-      }else if(clickTarget.id == 'closebutton' || clickTarget.id == 'favorclosebutton' || clickTarget){
+      }else if(clickTarget.id == 'closebutton' || clickTarget.id == 'favorclosebutton'){
         sidepanel.style.width = '0';
         closebutton.style.display = "none";
         closebutton.style.right = "0";

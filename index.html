@@ -6,6 +6,7 @@
     <title>TikTok Clone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <script src="src/index.js"></script>
+    <script src="src/login.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet" />
   </head>
@@ -22,7 +23,7 @@
     <div class="sidepanel">
       <div class="sidepanelcontent">
         <h4>Account Info:</h4>
-        <div>NAME:<br> ZHENGJIAN LIU</div>
+        <div>NAME:<br> <h3 id="username">ZHENGJIAN LIU</h3></div>
       </div>
       <button class="logout">Logout</button>
       <img id="closebutton" src='src/close.png'/>
@@ -47,7 +48,7 @@
 
     <!---loginform-->
     <div class="loginform">
-      <form id="login-form" action="index.html" method="post">
+      <form id="login-form">
         <h4>Login</h4>
         <input type="text" name="username" value="" placeholder="username"></input><br>
         <input type="text" name="password" value="" placeholder="password"></input><br>
@@ -58,7 +59,7 @@
     </div>
     <!---signupform-->
     <div class="signupform">
-      <form id="login-form" action="index.html" method="post">
+      <form id="signup-form">
         <h4>SignUp</h4>
         <input type="text" name="username" value="" placeholder="username"></input><br>
         <input type="text" name="fullname" value="" placeholder="fullname"></input><br>
