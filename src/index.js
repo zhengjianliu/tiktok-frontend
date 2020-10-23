@@ -84,7 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const playingVideo = lastFrame.src.slice(0, -1)
       const stopedVideo = playingVideo + "0"
       lastFrame.src = stopedVideo
-      // console.log(currentVideo)    /*show current video object <section>*/
       const nextVideo = currentVideo.nextSibling
       if (nextVideo === null) {
         console.log('no more') /*when last video is shown, console log no more*/
@@ -126,7 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
         closebutton.style.right = '320px';
         closebutton.style.display = 'block';
       } else if (icon.id == 'heart' || icon.parentElement.id == 'heart') {
-        clickTarget.src = 'src/redheart.png'
         const currentVideo = watching(body)
         const videoId = currentVideo.dataset.videoId
         console.log(videoId, userId) /* CLick like to get the videoId*/
@@ -140,10 +138,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         fetch(favorUrl, options)
         .then(resp => resp.json())
-        .then(_video=>{
+        .then(video=>{
           const videoframe = document.createElement('span')
           videoframe.innerHTML = `
-          <iframe width="1315" height="748" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <img data-thumbnail-id="${videoId}" id="thumbnail" src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg"><img id='remove' data-delete-id="${video.id}"src="src/close.png"></img></img>
           `
           videoDiv.append(videoframe)
         })

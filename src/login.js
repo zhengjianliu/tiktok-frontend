@@ -87,19 +87,18 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const renderFavorVideo = (videos,user) =>{
-    console.log(videos, user)
-    const videoList = []
     for (video of videos){
       if(video.user_id == user.id){
         const videoframe = document.createElement('span')
         videoframe.innerHTML = `
-        <iframe width="1315" height="748" src="https://www.youtube.com/embed/${video.favor_videos}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img data-thumbnail-id="${video.favor_videos}" id="thumbnail" src="https://i.ytimg.com/vi/${video.favor_videos}/hqdefault.jpg"><img id='remove' data-delete-id="${video.id}"src="src/close.png"></img></img>
         `
         videoDiv.append(videoframe)
       }
     }
-
   }
+
+
 
 
   const signinHandler = () => {
@@ -115,13 +114,52 @@ document.addEventListener('DOMContentLoaded', () => {
         const heart = stickybutton[1].style.display = 'none';
         const favor = stickybutton[2].style.display = 'none';
         const login = stickybutton[3].style.display = 'block';
+        videoDiv.innerHTML = ''
       }
     })
+  }
+
+  const clickHandler = () =>{
+    videoDiv.addEventListener('click', e=>{
+      const videoId = e.target.dataset.thumbnailId
+      document.querySelector('#fullPage').innerHTML = ''
+      renderVideo(videoId)
+      const deleteButton = e.target
+      if(deleteButton.id == 'remove'){
+
+        const deleteTarget = deleteButton.dataset.deleteId
+        const options = {
+          method: "DELETE"
+        }
+        fetch(favorUrl + deleteTarget,options)
+        .then(resp => resp.json())
+        .then(_favor=>{
+          deleteButton.parentElement.remove()
+        })
+      }
+    })
+  }
+
+  const renderVideo = (videoId) => {
+    if (videoId !== undefined) {
+      const videosBox = document.querySelector('#fullPage')
+      const videoDiv = document.createElement('section')
+      videoDiv.setAttribute('class', 'section')
+      videoDiv.setAttribute('data-video-id', `${videoId}`)
+      videoDiv.innerHTML = `
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=1""
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
+        `
+      videosBox.append(videoDiv)
+
+    }
   }
 
   /*----------*/
   loginHandler()
   signinHandler()
+  clickHandler()
 
 
 
