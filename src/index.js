@@ -1,7 +1,7 @@
 const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
 // const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
-const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
-// const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
+// const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
+const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
 let nextpage = ""
 let searchinput = "music"
 document.addEventListener('DOMContentLoaded', () => {
@@ -35,13 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (searchinput == undefined) {
       searchinput = "music"
     }
-    console.log(searchinput)
     fetch(URL + searchinput + token + API)
       .then(resp => resp.json())
       .then(videos => {
         renderVideos(videos.items)
         nextpage = videos.nextPageToken
-        console.log(URL + searchinput + token + API)
       })
   }
 
@@ -51,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault()
       const form = e.target
       searchinput = form.input.value
-      console.log(searchinput)
       renderData(searchinput)
       form.reset()
       document.querySelector('#fullPage').innerHTML = ''
@@ -86,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
       lastFrame.src = stopedVideo
       const nextVideo = currentVideo.nextSibling
       if (nextVideo === null) {
-        console.log('no more') /*when last video is shown, console log no more*/
         renderData(searchinput)
       } else {
         const nextFrame = nextVideo.children[0]
@@ -167,7 +163,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (button.id == "loginbutton") {
         loginform.style.display = "flex";
       } else if (button.id == "signup") {
-        console.log('signup')
         signupform.style.display = "flex";
         loginform.style.display = "none";
       } else if (button.id == "closeform") {
