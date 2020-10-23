@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (button.id == "loginbutton") {
         loginform.style.display = "block"
         loginform.lastChild.innerHTML = ''
+        loginform.classList.add('active');
       } else if (button.id == 'logout') {
         userId = ''
         const stickybutton = stickybuttons.children
