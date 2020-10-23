@@ -1,7 +1,7 @@
 const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
 // const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
-// const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
-const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
+const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
+// const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
 let nextpage = ""
 let searchinput = "music"
 document.addEventListener('DOMContentLoaded', () => {
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (icon.id == 'heart' || icon.parentElement.id == 'heart') {
         const currentVideo = watching(body)
         const videoId = currentVideo.dataset.videoId
-        console.log(videoId, userId) /* CLick like to get the videoId*/
+
         const options ={
           method: "POST",
           headers:{
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ----------- */
-  renderData()
-  searchHandler()
+  // renderData()
+  // searchHandler()
   clickHandler()
 })
