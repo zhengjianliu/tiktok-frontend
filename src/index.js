@@ -1,7 +1,7 @@
 const URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q="
 // const API = "&key=AIzaSyCSkMKPgnggWErxAVDi3JzpBzFqSXMAb8A"
-// const API = "&key=AIzaSyB4n0vFt7pW22vxeJgDLDaLfQdqOGW2e4M"
-const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
+const API = "&key=AIzaSyA7pVjal6z-g2ntXmu54b6kqupXSYTqKGk"
+// const API = "&key=AIzaSyAyGxCI67UJ5w1q5jx7u8HTpHurRoCH7ok"
 let nextpage = ""
 let searchinput = "music"
 document.addEventListener('DOMContentLoaded', () => {
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ----------- */
-  // renderData()
-  // searchHandler()
+  renderData()
+  searchHandler()
   clickHandler()
 })
