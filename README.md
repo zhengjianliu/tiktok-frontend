@@ -1,4 +1,4 @@
-<h1 align="center" color="lightgrey">Welcome to TikTok Web App Clone</h1>
+<h1 align="center" color="lightgrey">👋Welcome to TikTok Clone</h1>
 
 
 >The web version of TikTok uses YouTube API to generate video feed and provides a user experience similar to TikTok
